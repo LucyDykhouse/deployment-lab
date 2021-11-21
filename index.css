@@ -2,10 +2,21 @@ header {
     text-align: center;
 }
 
+img {
+    height: 80%;
+    width: 80%;
+    box-shadow: 2, 2, 5, black;
+}
+
 #hero {
-    color: black;
+    background-color: black;
 }
 
 #aside {
-    color: aqua;
+    background-color: aqua;
+    height: 100%;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
