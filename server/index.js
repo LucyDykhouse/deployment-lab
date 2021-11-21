@@ -13,7 +13,7 @@ app.get('/js', (req, res) => {
 });
 
 app.get("/styles", (req, res) => {
-    res.sendFile(path.join(__dirname, "index.css"));
+    res.sendFile(path.join(__dirname, "../index.css"));
 });
 
 
